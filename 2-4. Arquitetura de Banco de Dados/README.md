@@ -100,15 +100,19 @@ A arquitetura de três esquemas isola os dados das aplicações, garantindo flex
 ## Arquitetura: Modelo Cliente-Servidor e Classificação de SGBDs
 
 ### Arquitetura Física
-![](01-18163953.png)
+
 1. **Arquitetura Centralizada**:
    - Todos os dados e o processamento ocorrem em um único sistema.
    - Exemplo: Bancos legados utilizados em mainframes.
 
-![](01-18164016.png)
+![](01-18163953.png)
+
+
 2. **Arquitetura Cliente-Servidor**:
    - Dados são processados em servidores e acessados por clientes (computadores ou dispositivos remotos).
    - Exemplo: Aplicações web modernas.
+
+![](01-18164016.png)
 
 ### Classificação de SGBDs
 Os SGBDs podem ser classificados com base nos seguintes critérios:
