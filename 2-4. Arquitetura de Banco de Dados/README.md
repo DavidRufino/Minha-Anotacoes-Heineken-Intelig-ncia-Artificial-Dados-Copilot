@@ -3,125 +3,135 @@
 ## Arquitetura: Modelos, Esquemas e Instâncias
 
 ### Modelo
-
 #### O que é abstrair?
-Abstrair significa simplificar e generalizar algo, removendo aspectos particulares de um contexto específico. O objetivo é criar uma representação mais **abrangente e essencial**, que possa ser aplicada a diferentes cenários.
+Abstrair significa simplificar e generalizar algo, removendo aspectos particulares de um contexto específico. O objetivo é criar uma representação mais abrangente e essencial, que possa ser aplicada a diferentes cenários.
 
-- **Foco no essencial:** Retirar informações que particularizam o contexto.
-- **Abstração = Essencial.**
-- **Classificação:** Estruturada e organizada para modelagem eficiente.
+- **Foco no essencial**: Retirar informações que particularizam o contexto e manter apenas o que é realmente necessário.
+- **Abstração = Essencial**: Foco na essência do sistema.
+- **Classificação**: Estruturada e organizada para facilitar a modelagem eficiente.
 
 #### Primeiro Modelo de Dados: Físico
-O modelo físico é a base para estruturar e organizar os dados no sistema.
+O **modelo físico** é a base para estruturar e organizar os dados no sistema, determinando como os dados serão armazenados fisicamente nos dispositivos de armazenamento.
 
 ---
 
 ## Esquemas, Instâncias e Estados do Banco de Dados
 
 ### Conceitos Básicos
-
-- **Esquema:** Estrutura geral e fixa do banco de dados, definida para organizar os dados.
-- **Instâncias:** Dados específicos armazenados no esquema em um momento no tempo.
-- **Estados do BD:** Representam as alterações nos dados devido às operações realizadas (inserções, exclusões, atualizações).
+- **Esquema**: Estrutura geral e fixa do banco de dados, definida para organizar os dados. Exemplo: a estrutura de tabelas, colunas e relacionamentos.
+- **Instâncias**: Dados específicos armazenados no esquema em um momento no tempo. Ou seja, os dados "reais" presentes no banco.
+- **Estados do Banco de Dados (BD)**: Representam as alterações nos dados ao longo do tempo devido a operações como inserções, exclusões e atualizações.
 
 #### Por que criar um esquema?
-Os dados mudam constantemente. Criar um esquema fornece uma base estável que suporta a consistência e organização do banco de dados, mesmo com alterações nas instâncias.
+Os dados mudam constantemente. Criar um esquema fornece uma base estável que suporta a consistência e a organização do banco de dados, mesmo com alterações nas instâncias.
 
 ### Snapshot (Exemplo)
-Um **snapshot** é um estado momentâneo dos dados no banco. Exemplo:
+Um **snapshot** é um estado momentâneo dos dados no banco. Ele representa a "fotografia" de como o banco está em um momento específico.
 
-**Tabelas do Banco de Dados de Alunos:**
-- **STUDENT:** name, student_number, class, major
-- **COURSE:** course_name, course_number, credit_hours, department
-- **PREREQUISITE:** course_number, prerequisite_number
-- **SECTION:** section_identifier, course_number, semester, year, instructor
-- **GRADE_REPORT:** student_number, section_identifier, grade
+#### Exemplo: Banco de Dados de Alunos
+Tabelas e estrutura:
+- **STUDENT**: `name`, `student_number`, `class`, `major`
+- **COURSE**: `course_name`, `course_number`, `credit_hours`, `department`
+- **PREREQUISITE**: `course_number`, `prerequisite_number`
+- **SECTION**: `section_identifier`, `course_number`, `semester`, `year`, `instructor`
+- **GRADE_REPORT**: `student_number`, `section_identifier`, `grade`
 
-### Estrutura e Dados
-
-- **Snapshot:** Estado inicial do banco de dados.
-- **Estado válido:** Após operações, garante consistência com o esquema.
-- **Metadados:** Descrição do esquema, construtores e restrições.
+- **Estado inicial (Snapshot)**: O banco está vazio ou possui os dados iniciais.
+- **Estado válido**: Após operações (inserções, atualizações ou exclusões), o banco ainda está consistente com as regras do esquema.
+- **Metadados**: Incluem a descrição do esquema, construtores e restrições (por exemplo, tipos de dados, chaves primárias e estrangeiras).
 
 ---
 
 ## Three-Schema Architecture
 
-A arquitetura de três esquemas isola os dados das aplicações, garantindo flexibilidade e independência.
+A arquitetura de três esquemas isola os dados das aplicações, garantindo flexibilidade e independência entre os diferentes níveis.
 
 ### Componentes
-
-1. **External Level:**
+1. **External Level** (Nível Externo):
    - Visualizações externas para usuários finais.
-   - Representa diferentes perspectivas do banco.
-2. **Conceptual Level:**
-   - Representação lógica do banco.
-   - Esquema conceitual (entidades, atributos e relacionamentos).
-3. **Internal Level:**
-   - Representação física do banco.
-   - Esquema interno descreve como os dados são armazenados.
+   - Representa diferentes perspectivas do banco, como relatórios personalizados.
 
-#### Independência de Dados
-- **Lógica:** Isola o modelo conceitual das visualizações externas.
-- **Física:** Isola o modelo interno do modelo conceitual.
+2. **Conceptual Level** (Nível Conceitual):
+   - Representação lógica do banco.
+   - Inclui o esquema conceitual (entidades, atributos e relacionamentos).
+
+3. **Internal Level** (Nível Interno):
+   - Representação física do banco.
+   - O esquema interno descreve como os dados são armazenados (estruturas físicas).
+
+### Independência de Dados
+- **Independência Lógica**: Isola o modelo conceitual das visualizações externas. Permite mudanças no nível lógico sem impactar os usuários finais.
+- **Independência Física**: Isola o modelo interno do modelo conceitual. Permite mudanças na forma como os dados são armazenados fisicamente sem afetar o esquema conceitual.
 
 ---
 
 ## Arquitetura: Linguagem, Interface e Ambiente de SGBDs
 
 ### Linguagens
-
-- **DDL (Data Definition Language):** Define o esquema do banco.
-- **DML (Data Manipulation Language):** Manipula os dados (CRUD).
-  - **Alto nível:** Não procedural.
-  - **Baixo nível:** Procedural.
-- **SDL (Storage Definition Language):** Define a organização no nível físico.
-- **VDL (View Definition Language):** Define as visualizações externas.
+1. **DDL (Data Definition Language)**: Define o esquema do banco (criação de tabelas, chaves, etc.).
+2. **DML (Data Manipulation Language)**: Manipula os dados (operações CRUD: Create, Read, Update, Delete).
+   - **Alto nível**: Não procedural (ex.: SQL).
+   - **Baixo nível**: Procedural, com maior controle sobre as operações.
+3. **SDL (Storage Definition Language)**: Define como os dados são organizados no nível físico.
+4. **VDL (View Definition Language)**: Define as visualizações externas do banco de dados.
 
 ### Interfaces
-
-- **Web Clients** e **Aplicativos Mobile.**
-- **Interfaces gráficas (GUI):** Formulários e ferramentas visuais.
-- **NLI (Natural Language Interface):** Pesquisa por palavras-chave e comandos por voz.
-- **Interfaces especializadas:** DBA, usuários finais, etc.
+- **Web Clients e Aplicativos Mobile**: Acessam o banco remotamente.
+- **Interfaces Gráficas (GUI)**: Fornecem formulários e ferramentas visuais para interação.
+- **NLI (Natural Language Interface)**: Permitem buscas por palavras-chave ou comandos por voz.
+- **Interfaces especializadas**: Voltadas para administradores de banco de dados (DBAs) e usuários avançados.
 
 ### Ambientes e Utilitários
 
 ![](01-18162309.png)
 
-- **Ambiente modularizado:** Organiza o software em módulos.
-- **Utilitários de gerenciamento:** Backup, reorganização de storage, monitoramento.
-- **Ferramentas:** Dicionário de dados, estações de trabalho, software de comunicação.
+- **Ambiente modularizado**: Divide o software de SGBD em módulos para maior organização.
+- **Utilitários de gerenciamento**: 
+  - Backup e restauração.
+  - Reorganização do armazenamento.
+  - Monitoramento de desempenho.
+- **Ferramentas adicionais**:
+  - Dicionário de dados.
+  - Estações de trabalho dedicadas.
+  - Software de comunicação entre sistemas.
 
 ---
 
 ## Arquitetura: Modelo Cliente-Servidor e Classificação de SGBDs
 
 ### Arquitetura Física
-
-1. **Arquitetura Centralizada:**
-   - Todos os dados e processamento em um único sistema.
-
 ![](01-18163953.png)
-
-2. **Arquitetura Cliente-Servidor (moderna):**
-   - Dados processados em servidores e acessados por clientes.
+1. **Arquitetura Centralizada**:
+   - Todos os dados e o processamento ocorrem em um único sistema.
+   - Exemplo: Bancos legados utilizados em mainframes.
 
 ![](01-18164016.png)
+2. **Arquitetura Cliente-Servidor**:
+   - Dados são processados em servidores e acessados por clientes (computadores ou dispositivos remotos).
+   - Exemplo: Aplicações web modernas.
 
 ### Classificação de SGBDs
-
-Critérios:
-- **Modelo de dados:** Relacional, NoSQL, hierárquico, etc.
-- **Número de usuários:** Monousuário ou multiusuário.
-- **Número de sites:** Centralizado ou distribuído.
-- **Custo:** Sistemas gratuitos ou proprietários.
-- **Caminho de acesso:** OLTP (transações online) ou sistemas analíticos.
-
-#### Classificação - Relacional
-- **Coleções de tabelas:** Organização baseada em arquivos.
-- **Visualizações (Views):** Permitem ao usuário interagir com partes específicas dos dados.
+Os SGBDs podem ser classificados com base nos seguintes critérios:
+1. **Modelo de dados**:
+   - Relacional (baseado em tabelas).
+   - NoSQL (orientado a documentos, chave-valor, grafos, etc.).
+   - Hierárquico ou em rede.
+2. **Número de usuários**:
+   - Monousuário: Apenas um usuário por vez.
+   - Multiusuário: Suporta vários usuários simultaneamente.
+3. **Número de sites**:
+   - Centralizado: Todos os dados em um único local.
+   - Distribuído: Dados espalhados por vários locais.
+4. **Custo**:
+   - Sistemas gratuitos (ex.: MySQL, PostgreSQL).
+   - Sistemas proprietários (ex.: Oracle, SQL Server).
+5. **Caminho de acesso**:
+   - OLTP (Processamento de Transações Online): Voltado para operações do dia a dia.
+   - Sistemas analíticos: Voltados para análise e suporte à decisão (ex.: data warehouses).
 
 ---
 
-A arquitetura de banco de dados abrange modelos, esquemas e instâncias que organizam e gerenciam dados de forma estruturada. A **Three-Schema Architecture** promove independência entre níveis de abstração. SGBDs utilizam linguagens e interfaces para facilitar operações, com suporte a arquiteturas cliente-servidor. A classificação de SGBDs depende do modelo de dados, usuários e outros critérios.
+## Resumo
+A arquitetura de banco de dados organiza modelos, esquemas e instâncias para estruturar e gerenciar dados de forma eficiente. A **Three-Schema Architecture** promove a independência entre os níveis de abstração, permitindo flexibilidade e consistência. Os SGBDs utilizam linguagens e interfaces para facilitar operações e suportam diferentes arquiteturas, como cliente-servidor. A classificação dos SGBDs depende de critérios como modelo de dados, número de usuários e localização dos dados.
+
+---
