@@ -6,12 +6,12 @@ Sinta-se à vontade em agregar as anotações também.
 
 .
 
-**[1. Git](https://github.com...)** apresentado pelo **Elidiana Andrade**
+**[1. Git](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/1.%20Git)** apresentado pelo **Elidiana Andrade**
 
-**[2-1. Introdução a Banco de Dados](https://github.com...)** apresentado pelo **Juliana Mascarenhas**
+**[2-1. Introdução a Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/2-1.%20Introdu%C3%A7%C3%A3o%20a%20Banco%20de%20Dados)** apresentado pelo **Juliana Mascarenhas**
 
-**[2-2. Sistemas de Gerenciamento de Banco de Dados](https://github.com...)** apresentado pelo **Juliana Mascarenhas**
+**[2-2. Sistemas de Gerenciamento de Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/2-2.%20Sistemas%20de%20Gerenciamento%20de%20Banco%20de%20Dados)** apresentado pelo **Juliana Mascarenhas**
 
-**[2-3. Modelagem de Dados para Banco de Dados](https://github.com...)** apresentado pelo **Juliana Mascarenhas**
+**[2-3. Modelagem de Dados para Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/2-3.%20Modelagem%20de%20Dados%20para%20Banco%20de%20Dados)** apresentado pelo **Juliana Mascarenhas**
 
-**[2-4. Arquitetura de Banco de Dados](https://github.com...)** apresentado pelo **Juliana Mascarenhas**
+**[2-4. Arquitetura de Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/2-4.%20Arquitetura%20de%20Banco%20de%20Dados)** apresentado pelo **Juliana Mascarenhas**
