@@ -15,3 +15,9 @@ Sinta-se à vontade em agregar as anotações também.
 **[2-3. Modelagem de Dados para Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/2-3.%20Modelagem%20de%20Dados%20para%20Banco%20de%20Dados)** apresentado pela **Juliana Mascarenhas**
 
 **[2-4. Arquitetura de Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/2-4.%20Arquitetura%20de%20Banco%20de%20Dados)** apresentado pela **Juliana Mascarenhas**
+
+**[3-1. Fundamentos de Modelagem e Projeto de Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/3-1.%20Fundamentos%20de%20Modelagem%20e%20Projeto%20de%20Banco%20de%20Dados)** apresentado pela **Juliana Mascarenhas**
+
+**[3-2. Modelo de Entidade Relacionamento com Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/3-2.%20Modelo%20de%20Entidade%20Relacionamento%20com%20Banco%20de%20Dados)** apresentado pela **Juliana Mascarenhas**
+
+**[3-3. Modelo Relacionamento de Entidade Aprimorado com Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/3-3.%20Modelo%20Relacionamento%20de%20Entidade%20Aprimorado%20com%20Banco%20de%20Dados)** apresentado pela **Juliana Mascarenhas**
