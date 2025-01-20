@@ -114,6 +114,8 @@
 - Quais informações sobre os professores são relevantes para armazenar?
     - Exemplo: Nome, matrícula, cursos que leciona, especialização, carga horária, coordenador de curso.
 
+![](universidade.drawio.png)
+
 ---
 # Projeto de Ecommerce
 
@@ -220,6 +222,7 @@ Agora que as narrativas estão claras, podemos entender como as entidades se rel
    - Cada produto tem uma quantidade disponível em estoque.
    - Relacionamento de 1 para 1 entre **Produto** e **Estoque**.
 
+![](ecommecerce.drawio.png)
 ---
 
 ## Ferramentas de Design
