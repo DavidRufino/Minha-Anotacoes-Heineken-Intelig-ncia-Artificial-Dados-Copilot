@@ -21,3 +21,7 @@ Sinta-se à vontade em agregar as anotações também.
 **[3-2. Modelo de Entidade Relacionamento com Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/3-2.%20Modelo%20de%20Entidade%20Relacionamento%20com%20Banco%20de%20Dados)** apresentado pela **Juliana Mascarenhas**
 
 **[3-3. Modelo Relacionamento de Entidade Aprimorado com Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/3-3.%20Modelo%20Relacionamento%20de%20Entidade%20Aprimorado%20com%20Banco%20de%20Dados)** apresentado pela **Juliana Mascarenhas**
+
+**[3-4. Refinando um Projeto Conceitual de Banco de Dados – E-COMMERCE](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/3-4.%20Refinando%20um%20Projeto%20Conceitual%20de%20Banco%20de%20Dados%20%E2%80%93%20E-COMMERCE)** apresentado pela **Juliana Mascarenhas**
+
+**[3-5. Construindo um Esquema Conceitual para Banco De dados]()** apresentado pela **Juliana Mascarenhas**
