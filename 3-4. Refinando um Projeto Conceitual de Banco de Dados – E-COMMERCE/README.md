@@ -245,6 +245,12 @@ Agora que as narrativas estão claras, podemos entender como as entidades se rel
   - Integração com o editor de código, oferecendo uma experiência fluida entre modelagem e desenvolvimento.
   - Ideal para projetos ágeis e colaboração em equipes técnicas.
 
+### DDL TO Diagram
+https://www.devtoolsdaily.com/sql/ddl-to-diagram/
+
+### SQLZoo - Aprenda SQL com exercícios interativos
+https://sqlzoo.net/wiki/SQL_Tutorial
+
 ### **Ferramenta Alternativa: DBDesigner.net**
 - Plataforma online para design de bancos de dados.
 - Recursos:
