@@ -438,3 +438,72 @@ NOT
 ### Operadores Lógicos
 TRUE  
 FALSE
+
+# When Good Statements Go Bad
+
+Às vezes, mesmo comandos SQL bem estruturados podem falhar devido a problemas relacionados à integridade, restrições ou conversões. Aqui estão os principais motivos:
+
+## 1. PK (Primary Key) e FK (Foreign Key) Inexistentes
+- **Problema:**  
+  Quando uma tabela não possui uma **Primary Key (PK)**, não é possível garantir que os registros sejam únicos. Isso pode causar duplicação de dados ou inconsistência.  
+  Além disso, a ausência de **Foreign Keys (FK)** pode comprometer a integridade referencial entre tabelas relacionadas.
+- **Exemplo:**  
+  Um sistema de vendas onde a tabela de pedidos não valida se um cliente existe na tabela de clientes. Isso pode levar a registros "soltos" ou inconsistentes.
+
+## 2. Valores Violados
+- **Problema:**  
+  Violação de constraints, como **NOT NULL**, **UNIQUE**, ou **CHECK**, ocorre quando os valores inseridos não respeitam as regras definidas.
+- **Exemplo:**  
+  Inserir um valor `NULL` em uma coluna que exige **NOT NULL** ou duplicar um registro em uma tabela que exige valores únicos.
+
+## 3. Conversão Inválida de Datas
+- **Problema:**  
+  Erros ocorrem ao tentar converter valores para o tipo **DATE** ou **TIMESTAMP**, especialmente se o formato do dado não for compatível com o esperado pelo PostgreSQL ou MySQL.
+- **Exemplo:**  
+  Inserir uma data no formato `DD/MM/YYYY` em um banco que espera `YYYY-MM-DD`.
+
+---
+
+# PostgreSQL
+
+O PostgreSQL é um sistema de banco de dados relacional avançado e robusto, ideal para aplicações que requerem alta complexidade e integridade.
+
+- **Características:**  
+  - Otimizado para aplicações complexas e de grande porte.  
+  - Suporta grande volume de dados e informações críticas.  
+  - Oferece recursos avançados, como **CTEs (Common Table Expressions)**, **JSONB**, e **transações complexas**.
+
+- **Exemplo de Uso:**  
+  Um sistema de e-commerce de médio ou grande porte, onde integridade e segurança dos dados são essenciais.
+
+---
+
+# MySQL
+
+O MySQL é um banco de dados ágil e versátil, mais adequado para operações simples e de menor complexidade.
+
+- **Características:**  
+  - Focado em agilidade e versatilidade.  
+  - Excelente para operações rápidas com alto desempenho.  
+  - Fácil de aprender e usar, com menor curva de aprendizado.
+
+- **Exemplo de Uso:**  
+  Um site simples, fórum ou portal, onde o foco é velocidade e simplicidade.
+
+---
+
+# Ponderações
+
+Ao escolher entre PostgreSQL e MySQL, considere os seguintes fatores:
+
+1. **Precisa de rollback ou controle transacional avançado?**  
+   - O **MySQL** não possui suporte robusto para isso. Prefira **PostgreSQL** para aplicações críticas.
+
+2. **Precisa de agilidade e rapidez?**  
+   - O **MySQL** é ideal para operações rápidas e processamento com tempo curto de resposta.
+
+3. **Fácil utilização?**  
+   - O **MySQL** é mais simples de configurar e usar, ideal para quem está começando.
+
+4. **Operações mais simplificadas?**  
+   - O **MySQL** oferece maior simplicidade para tarefas básicas.

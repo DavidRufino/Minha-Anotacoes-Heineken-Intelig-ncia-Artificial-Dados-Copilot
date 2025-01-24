@@ -143,8 +143,6 @@ CREATE TABLE IF NOT EXISTS dependent (
     sex CHAR(1),
     bdate DATE,
     relationship VARCHAR(8) NOT NULL,
-    age INT NOT NULL,
-    CONSTRAINT chk_age_dependent CHECK (age < 22),
     PRIMARY KEY (essn, dependent_name),
     CONSTRAINT fk_dependent FOREIGN KEY (essn) REFERENCES employee(ssn)
 );
