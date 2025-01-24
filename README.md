@@ -29,3 +29,5 @@ Sinta-se à vontade em agregar as anotações também.
 **[3-6. Modelo Relacional e Mapeamento Relacional com Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/3-6.%20Modelo%20Relacional%20e%20Mapeamento%20Relacional%20com%20Banco%20de%20Dados)** apresentado pela **Juliana Mascarenhas**
 
 **[4-1. Primeiros Passos com SQL](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/4-1.%20Primeiros%20Passos%20com%20SQL)** apresentado pela **Juliana Mascarenhas**
+
+**[4-2. Explorando Queries com SQL](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/4-2.%20Explorando%20Queries%20com%20SQL)** apresentado pela **Juliana Mascarenhas**
