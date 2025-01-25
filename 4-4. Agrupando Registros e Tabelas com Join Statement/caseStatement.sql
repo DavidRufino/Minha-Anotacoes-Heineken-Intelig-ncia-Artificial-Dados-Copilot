@@ -116,11 +116,22 @@ ORDER BY dnumber;  -- Agrupar por número de departamento
 
 -- OUTER JOIN
 
-SELECT * FROM employee
+-- INNER JOIN: Retorna apenas os registros que possuem correspondências em ambas as tabelas.
+-- Neste caso, traz apenas os funcionários que possuem dependentes.
+SELECT * 
+FROM employee
 INNER JOIN dependent ON ssn = essn;
 
-SELECT * FROM employee
+-- LEFT JOIN: Retorna todos os registros da tabela à esquerda (employee), 
+-- mesmo que não existam correspondências na tabela à direita (dependent).
+-- Caso não haja correspondência, as colunas de dependent terão valores NULL.
+SELECT * 
+FROM employee
 LEFT JOIN dependent ON ssn = essn;
 
-SELECT * FROM employee
+-- LEFT OUTER JOIN: É funcionalmente equivalente ao LEFT JOIN.
+-- Retorna todos os registros da tabela à esquerda (employee), 
+-- incluindo os funcionários que não possuem dependentes (com valores NULL nas colunas de dependent).
+SELECT * 
+FROM employee
 LEFT OUTER JOIN dependent ON ssn = essn;
