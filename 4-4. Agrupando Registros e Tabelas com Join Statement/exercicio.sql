@@ -16,6 +16,17 @@
 -- Para usar o banco "company", basta conectá-lo ao PostgreSQL:
 \c company
 
+-- department, project e employee
+
+-- department:
+-- dname, dnumber, mgr_ssn, mgre_start_date, dept_create_date
+
+-- employee
+-- fname, minit, lname, ssn, bdate, address, gender, salary, super_ssn, dno
+
+-- project
+-- pname, pnumber, plocation, dnum
+
 SELECT CONCAT(fname, ' ', minit, '. ',lname) AS fullname, 
     pname AS projectName, 
     pnumber AS projectNumber, 

@@ -114,12 +114,13 @@ INNER JOIN (dependent
 ON ssn = mgr_ssn  -- Junção entre ssn do empregado e ssn do gerente
 ORDER BY dnumber;  -- Agrupar por número de departamento
 
--- department, project e employee
--- department:
--- dname, dnumber, mgr_ssn, mgre_start_date, dept_create_date
+-- OUTER JOIN
 
--- employee
--- fname, minit, lname, ssn, bdate, address, gender, salary, super_ssn, dno
+SELECT * FROM employee
+INNER JOIN dependent ON ssn = essn;
 
--- project
--- pname, pnumber, plocation, dnum
+SELECT * FROM employee
+LEFT JOIN dependent ON ssn = essn;
+
+SELECT * FROM employee
+LEFT OUTER JOIN dependent ON ssn = essn;
