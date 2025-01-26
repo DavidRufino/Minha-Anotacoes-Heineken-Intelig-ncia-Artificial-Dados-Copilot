@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS payment_method (
     CONSTRAINT fk_payment FOREIGN KEY (id_payment) REFERENCES payment(id_payment)
 );
 
--- Exibe a descrição da tabela "client"
+-- Exibe a descrição da tabela "payment_method"
 \d payment_method;
 
 CREATE TYPE delivery_status AS ENUM ('Em processo', 'Enviado', 'Entregue', 'Cancelado');

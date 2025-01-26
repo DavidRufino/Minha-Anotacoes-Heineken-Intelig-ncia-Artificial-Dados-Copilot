@@ -35,3 +35,5 @@ Sinta-se à vontade em agregar as anotações também.
 **[4-3. Criando Queries com Funções e Cláusulas de Agrupamentos](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/4-3.%20Criando%20Queries%20com%20Fun%C3%A7%C3%B5es%20e%20Cl%C3%A1usulas%20de%20Agrupamentos)** apresentado pela **Juliana Mascarenhas**
 
 **[4-4. Agrupando Registros e Tabelas com Join Statement](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/4-4.%20Agrupando%20Registros%20e%20Tabelas%20com%20Join%20Statement)** apresentado pela **Juliana Mascarenhas**
+
+**[Projeto Lógico de Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/Projeto%20L%C3%B3gico%20de%20Banco%20de%20Dados)**
