@@ -36,3 +36,6 @@ Entrega – Possui status e código de rastreio;
 
 ## Execução do script Via Linha de Comando (psql):
 `psql -U postgres -f create.sql -f insert_data.sql -f desafio.sql`
+
+
+![](YJOPEQCT.pdf)

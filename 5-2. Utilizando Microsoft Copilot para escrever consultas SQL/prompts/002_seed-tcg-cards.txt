@@ -1,0 +1,39 @@
+consider table below
+
+CREATE TABLE tbl_collections (
+    id SERIAL PRIMARY KEY,
+    collectionSetName VARCHAR(150) NOT NULL,
+    releaseDate DATE NOT NULL,
+    totalCardsInCollection INTEGER NOT NULL
+);
+
+CREATE TABLE tbl_types (
+    id SERIAL PRIMARY KEY,
+    typeName VARCHAR(50) NOT NULL UNIQUE
+);
+
+CREATE TABLE tbl_stages (
+    id SERIAL PRIMARY KEY,
+    stageName VARCHAR(50) NOT NULL UNIQUE
+);
+
+CREATE TABLE tbl_cards (
+    id SERIAL PRIMARY KEY,
+    hp INTEGER NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    type_id INTEGER NOT NULL,
+    stage_id INTEGER NOT NULL,
+    info TEXT,
+    attack VARCHAR(150),
+    damage VARCHAR(50),
+    weak VARCHAR(50),
+    ressis VARCHAR(50),
+    retreat VARCHAR(50),
+    cardNumberInCollection INTEGER NOT NULL,
+    collection_id INTEGER NOT NULL,
+    FOREIGN KEY (collection_id) REFERENCES tbl_collections (id) ON DELETE CASCADE,
+    FOREIGN KEY (type_id) REFERENCES tbl_types (id) ON DELETE CASCADE,
+    FOREIGN KEY (stage_id) REFERENCES tbl_stages (id) ON DELETE CASCADE
+);
+
+create a initial seed to ali tables with tcg pokemon, generate insert scripts

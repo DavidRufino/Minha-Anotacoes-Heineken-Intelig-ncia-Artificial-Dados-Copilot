@@ -1,0 +1,35 @@
+[ação]
+create a script to create a table in postgresql
+otimize the varchar fields to perfect size
+
+create another tables and link to tbl_cards
+- create a table to seperate type
+- create a table to separate stage
+
+[context]
+- the first table is a table to save a markdown tcg cards
+- the second table is a table to save collections set
+
+connect to tables with foreign key
+
+[informações]
+first table: tbl_cards
+- id
+- hp
+- name
+- type
+- stage
+- info
+- attack
+- damage
+- weak
+- ressis.
+- retreat
+- cardNumberInCollection
+
+the second table: tbl_collections
+- id
+- collectionSetName
+- release Date
+- totalCardsInCollection
+
