@@ -2,11 +2,11 @@
 
 ## **Índice**
 
-1. [Fundamentos da Otimização de Consultas SQL](#fundamentos-da-otimização)
+1. [Fundamentos da Otimização de Consultas SQL](#fundamentos-da-otimização-de-consultas-sql)
 2. [Plano de Execução (EXPLAIN)](#plano-de-execução-explain)
 3. [Uso de Índices](#uso-de-índices)
-4. [Técnicas Práticas para Otimização](#técnicas-práticas)
-5. [Subconsultas vs JOINs](#subconsultas-vs-joins)
+4. [Técnicas Práticas para Otimização](#técnicas-práticas-para-otimização)
+5. [Subconsultas vs JOINs](#2-subconsultas-vs-joins-qual-usar)
 6. [Resumo e Próximos Passos](#resumo-e-próximos-passos)
 
 ---

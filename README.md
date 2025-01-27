@@ -36,12 +36,12 @@ Sinta-se à vontade em agregar as anotações também.
 
 **[4-4. Agrupando Registros e Tabelas com Join Statement](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/4-4.%20Agrupando%20Registros%20e%20Tabelas%20com%20Join%20Statement)** apresentado pela **Juliana Mascarenhas**
 
-**[4-5. SQL Tuning, Dicas para Melhorar Performance de Consultas](https://github.com/DavidRufino/)** apresentado pelo **Rafael Shigemura** e **Thiago Bulhosa**
+**[4-5. SQL Tuning, Dicas para Melhorar Performance de Consultas](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/4-5.%20SQL%20Tuning%2C%20Dicas%20para%20Melhorar%20Performance%20de%20Consultas)** apresentado pelo **Rafael Shigemura** e **Thiago Bulhosa**
 
 **[Projeto Lógico de Banco de Dados](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/Projeto%20L%C3%B3gico%20de%20Banco%20de%20Dados)**
 
 **[Projeto Lógico de Banco de Dados do Zero](https://github.com/DavidRufino/postgresql-desafio-banco-de-dados-do-zero?tab=readme-ov-file)**
 
-**[5-1. Excel 365](https://github.com/DavidRufino/)** apresentado pelo **Felipe Silva Aguiar**
+**[5-1. Excel 365](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/5-1.%20Excel%20365)** apresentado pelo **Felipe Silva Aguiar**
 
-**[5-2. Utilizando Microsoft Copilot para escrever consultas SQL](https://github.com/DavidRufino/)** apresentado pelo **Felipe Silva Aguiar**
+**[5-2. Utilizando Microsoft Copilot para escrever consultas SQL](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/5-2.%20Utilizando%20Microsoft%20Copilot%20para%20escrever%20consultas%20SQL)** apresentado pelo **Felipe Silva Aguiar**
