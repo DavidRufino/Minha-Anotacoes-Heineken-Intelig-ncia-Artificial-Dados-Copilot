@@ -45,3 +45,5 @@ Sinta-se à vontade em agregar as anotações também.
 **[5-1. Excel 365](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/5-1.%20Excel%20365)** apresentado pelo **Felipe Silva Aguiar**
 
 **[5-2. Utilizando Microsoft Copilot para escrever consultas SQL](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/5-2.%20Utilizando%20Microsoft%20Copilot%20para%20escrever%20consultas%20SQL)** apresentado pelo **Felipe Silva Aguiar**
+
+**[Projeto Criando um Dashboard de Vendas](https://github.com/DavidRufino)**
