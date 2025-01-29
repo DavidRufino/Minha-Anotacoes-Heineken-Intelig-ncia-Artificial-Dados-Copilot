@@ -46,4 +46,4 @@ Sinta-se à vontade em agregar as anotações também.
 
 **[5-2. Utilizando Microsoft Copilot para escrever consultas SQL](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/5-2.%20Utilizando%20Microsoft%20Copilot%20para%20escrever%20consultas%20SQL)** apresentado pelo **Felipe Silva Aguiar**
 
-**[Projeto Criando um Dashboard de Vendas](https://github.com/DavidRufino)**
+**[Projeto Criando um Dashboard de Vendas](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/tree/main/Projeto%20Criando%20um%20Dashboard%20de%20Vendas)**
