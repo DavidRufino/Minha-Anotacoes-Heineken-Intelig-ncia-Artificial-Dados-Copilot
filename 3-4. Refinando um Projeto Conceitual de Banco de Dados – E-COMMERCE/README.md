@@ -257,3 +257,5 @@ https://sqlzoo.net/wiki/SQL_Tutorial
   - Criação visual de modelos relacionais.
   - Exportação direta para SQL.
   - Compartilhamento e colaboração em projetos.
+
+**[Ferramentas de Design](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/blob/main/3-4.%20Refinando%20um%20Projeto%20Conceitual%20de%20Banco%20de%20Dados%20%E2%80%93%20E-COMMERCE/README.md#ferramentas-de-design)**

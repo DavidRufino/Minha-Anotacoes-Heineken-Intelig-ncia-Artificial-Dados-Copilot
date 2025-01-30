@@ -41,3 +41,5 @@
    - Relacionamento de N para N entre **OS** e **Peça**.
 
 ![](oficina.drawio.png)
+
+**[Ferramentas de Design](https://github.com/DavidRufino/Minha-Anotacoes-Heineken-Intelig-ncia-Artificial-Dados-Copilot/blob/main/3-4.%20Refinando%20um%20Projeto%20Conceitual%20de%20Banco%20de%20Dados%20%E2%80%93%20E-COMMERCE/README.md#ferramentas-de-design)**
